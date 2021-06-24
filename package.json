@@ -2,5 +2,26 @@
   "devDependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.14"
-  }
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "no-sql-social",
+  "description": "this weeks no sql challenge",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckxx1/no-sql-Social.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buckxx1/no-sql-Social/issues"
+  },
+  "homepage": "https://github.com/buckxx1/no-sql-Social#readme"
 }
