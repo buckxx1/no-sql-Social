@@ -55,7 +55,7 @@ const addDateSuffix = date => {
         }
         const dateObj = new Date(timestamp);
 
-        const formatedMonth = months[dateObj.getMonth()];
+        const formattedMonth = months[dateObj.getMonth()];
 
         let dayOfMonth;
 
