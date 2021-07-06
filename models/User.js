@@ -1,6 +1,6 @@
 //importing dependancy
 
-const { Schema, model } = require('mongoose')
+const { Schema, Types , model } = require('mongoose')
 
 const UserSchema = new Schema({
     username: {

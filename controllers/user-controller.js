@@ -1,4 +1,6 @@
-const { User } = require('../models');
+const { populate } = require("../models/User");
+const { User } = require("../models");
+const dateFormat = require('../utils/dateFormat');
 
 const userController = {
     getAllUsers(req, res) {
@@ -98,4 +100,6 @@ const userController = {
             .then(dbUserData => res.json(dbUserData))
             .catch(err => res.json(err));
     }
-}
+};
+
+module.exports = userController;

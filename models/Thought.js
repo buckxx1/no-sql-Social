@@ -1,4 +1,4 @@
-const { Schema, model, Types } = require('mongoose');
+const { Schema, Types, model } = require('mongoose');
 //import the date function 
 const dateFormat = require('../utils/dateFormat');
 
